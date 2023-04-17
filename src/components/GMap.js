@@ -78,35 +78,13 @@ function GMaps(props){
               }
               
 
-            }
-                      
-//-----------------------------------------do not touch anything---------------------------//    
+            }   
         }
 
       });
       let x;
       
 
-      //=----------to place correct marker---------------//
-
-      // function setCorrectMarker(){
-        // if(goPressed){
-        //   const flightPlanCoordinates = [
-        //     { lat: props.lat, lng: props.lng },
-        //     { lat: userGuess.lat(), lng: userGuess.lng() }
-        //   ];
-        //   const flightPath = new window.google.maps.Polyline({
-        //     path: flightPlanCoordinates,
-        //     geodesic: true,
-        //     strokeColor: "#FF0000",
-        //     strokeOpacity: 1.0,
-        //     strokeWeight: 2,
-        //   });
-      //     // let correctMarker = new window.google.maps.Marker(props);
-      //     // correctMarker.setPosition(props);
-      //   }
-      // }
-      ///=======------------------------handle GO==---------------------------------------------
       function handleClick(event){
           const flightPlanCoordinates = [
             { lat: props.lat, lng: props.lng },
